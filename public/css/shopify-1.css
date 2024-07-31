@@ -88,14 +88,11 @@
 .swe-flex {
     display: flex;
 }
-.swe-h-60 {
-    height: 15rem;
-}
 .swe-w-52 {
     width: 13rem;
 }
-.swe-w-60 {
-    width: 15rem;
+.swe-w-\[160px\] {
+    width: 160px;
 }
 .swe-flex-col {
     flex-direction: column;
@@ -185,17 +182,15 @@
     color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
-    .sm\:swe-text-4xl {
-        font-size: 2.25rem;
-        line-height: 2.5rem;
+    .sm\:swe-text-\[28px\] {
+        font-size: 28px;
     }
 }
 @media (min-width: 768px) {
     .md\:swe-w-72 {
         width: 18rem;
     }
-    .md\:swe-text-xl {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+    .md\:swe-text-\[24px\] {
+        font-size: 24px;
     }
 }
