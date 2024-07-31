@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app > * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.swe-zoom-on-hover {
+    transition: transform 0.3s ease;
+}
+
+.swe-zoom-on-hover:hover {
+    transform: scale(1.2); /* Adjust the scale value as needed */
+}
