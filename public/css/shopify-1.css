@@ -88,11 +88,17 @@
 .swe-flex {
     display: flex;
 }
+.swe-h-\[52px\] {
+    height: 52px;
+}
 .swe-w-52 {
     width: 13rem;
 }
 .swe-w-\[160px\] {
     width: 160px;
+}
+.swe-w-\[184px\] {
+    width: 184px;
 }
 .swe-flex-col {
     flex-direction: column;
@@ -141,10 +147,6 @@
 .swe-text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-}
-.swe-text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
 }
 .swe-text-lg {
     font-size: 1.125rem;
